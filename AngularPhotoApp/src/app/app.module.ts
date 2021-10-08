@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ImageListComponent } from './image-list/image-list.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +16,8 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
