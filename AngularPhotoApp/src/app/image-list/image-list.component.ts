@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./image-list.component.css']
 })
 export class ImageListComponent implements OnInit {
-
+  public items: Array<number> = [1, 2, 3, 4, 5, 6];
   constructor() { }
 
   ngOnInit(): void {
